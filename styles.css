@@ -70,7 +70,7 @@ button{
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
-    width: 80px;
+    width: 120px;
     margin-top: 10px;
     margin-left: 80px;
 }
@@ -79,4 +79,122 @@ button{
     width: 400px;
     height: 200px;
     margin-left: 50px;
+}
+
+.info-header{
+    display: flex;
+    font-size: 36px; 
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    padding: 35px;
+}
+
+.second-block{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.pic-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: #1F2937;
+}
+
+.pic-2{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: #1F2937;
+}
+
+.pic-3{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: #1F2937;
+}
+
+.pic-4{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: #1F2937;
+}
+
+.pic{
+    width: 150px;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+
+.caption{
+    text-align: center;
+    color:#566573;
+}
+
+.third-block{
+    display: flex;
+    flex-direction: column;
+    background-color: #D5D8DC;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    width: 700px;
+}
+
+.quoter{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+.fourth-block{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+
+}
+
+.left-part{
+    display:flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.fourth-title{
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+.sign-up-again{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    width: 120px;
+    border:#F9FAF8;
+    border-style: solid;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: white;
 }
